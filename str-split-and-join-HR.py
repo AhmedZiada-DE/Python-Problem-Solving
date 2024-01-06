@@ -1,3 +1,4 @@
+# This function simply takes a string changes the spaces inside it to hyphens (-)
 def split_and_join(line):
     # write your code here
     li = line.split(" ")
