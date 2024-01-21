@@ -21,5 +21,14 @@ for i in range(cmd):
     elif order == 'pop':
         s.pop()
     a+=1
-# print(s)
 print(sum(s))
+
+
+
+#############################################
+    #Strange solution I found on HackerRank
+#############################################
+
+# n, s, N = input(), set(map(int, input().split())), int(input())
+# [getattr(s,fn)(int(value[0])) if value else getattr(s,fn)() for fn,*value in [input().split() for _ in range(N)]]
+# print(sum(s))
